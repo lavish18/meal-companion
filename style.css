@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;}
+
+body {
+    width: 100%;
+    background-size: cover;
+    background-color:#E79733;
+    color: white;
+}
+
+#banner{
+   
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ 
+
+}
+
+img  {
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+
+/* header heading section */
+#heading {
+    margin-top: 100px;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* header navbar */
+#nav {
+    background-color: #e9ffff; 
+}
+
+/* header search bar section */
+#search-bar {
+    max-width: 600px;
+}
+
+#search-bar input {
+    height: 50px;
+    border-radius: 20px;
+}
+
+
+/* meal card */
+#card {
+    background-color: white;
+    padding: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #733c3c;
+    font-weight: bold;
+}
+
+#card img {
+    
+}
+
+
+/* meal details container */
+#meal-details{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:white ;
+    color:  #747f7f
+}
+#meal-header{
+    width: 70%;
+    margin: auto;
+}
+#meal-thumbail img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    
+    color: #733c3c;
+    font-family: custom;
+     font-weight: bold;
+}
+#meal-instruction{
+    margin: auto;
+    text-align: justify;
+
+}
+
+
+/* favourites offcanvus */
+#favourites-body{
+    background-color:#E79733 ;
+}
